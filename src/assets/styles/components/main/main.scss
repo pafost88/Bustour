@@ -1,19 +1,167 @@
-section.main-page{
-      height: auto;
+section.hero{
+      height: 400px;
       width: 100%;
       background-color: white;
 
       z-index: 1100;
 
-      position: absolute;
-      top: 0;
-      left: 0;
-
       .hero-banner{
-            img{
-                  width: 100%;
-                  height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            background-image: url("../../../images/background.jpg");
+
+            background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+
+            height: 480px;
+
+            width: 100%;
+            
+
+
+            .content{
+                  position: absolute;
+                  top: 140px;
+                  left: 0;
+                  text-align: center;
+
+                  .section-title{
+                        padding-bottom: 20px;
+                        h1{
+                              color: white;
+                              font-family: 'Inter';
+                              font-style: 32px;
+                              font-weight: 700;
+                              margin: 0;
+                        }
+                  }
+
+                  .section-description{
+                        p{
+                              margin: 0;
+                              font-family: 'Inter';
+                              color: white;
+                              font-size: 18px;
+                              font-weight: 400;
+                        }
+                  }
+            }
+            
+      }
+
+}
+
+section.benefits{
+      padding-top: 60px;
+
+      .benefits-block{
+            .icon{
+                  width: 44px;
+                  height: 44px;
+                  background-color: rgba(206, 94, 94, 0.747);
+            }
+
+            h2{
+                  margin: 15px 0px;
+                  font-size: 22px;
+                  font-family: 600;
+                  font-family: 'Inter';
+                  color:black;
+            }
+
+            p{
+                  margin: 0;
+                  font-size: 14px;
+                  font-family: 400;
+                  font-family: 'Inter';
+                  color: gray;
+                  line-height: 18px;
+
             }
       }
 
+      .banner{
+            padding: 50px 0px;
+            img{
+                  height: 300px;
+                  width: 100%;
+            }
+      }
+}
+
+.info-block{
+
+      .title-block{
+            padding-bottom: 40px;
+            h1{
+                  font-size: 32px;
+                  font-weight: 400;
+                  font-family: 'Inter';
+                  color: gray;
+            }
+      }
+
+      .section-title{
+            h2{
+                  font-size: 28px;
+                  font-weight: 400;
+                  font-family: 'Inter';
+                  color: gray;
+            }
+      }
+
+      .section-text{
+            p{
+                  font-size: 15px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-weight: 500;
+            }
+      }
+
+}
+
+section.cities{
+      padding-bottom: 60px;
+      padding-top: 20px;
+
+      .available-block{
+
+            .section-title{
+                  h2{
+                        font-family: 'Inter';
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 160%;
+                        color: black;
+                  }
+            }
+
+            nav{
+                  ul{
+                        padding-left: 0;
+      
+                        li{
+                              list-style-type: none;
+                              padding-top: 2px;
+                              a{
+                                    text-decoration: none;
+                                    color: black;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    font-family: 'Arial';
+                              }
+
+                              a:hover{
+                                    color: gray;
+                              }
+                        }
+                  }
+            }
+      }
 }

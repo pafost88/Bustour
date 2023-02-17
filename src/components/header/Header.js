@@ -21,11 +21,13 @@ function Header() {
             <div className="col-8">
               
               <div className="navigation">
-                <div className="support-block">1</div>
+                <div className="support-block">
+                  <a href=""><div className="icon headphones"></div> Служба підтримки</a>
+                </div>
                 <nav>
                   <ul>
-                    <li className="language"><a href="example.com" lang="en">English</a></li>
-                    <li className="language"><a href="example.com" lang="fr">Français</a></li>
+                    <li className="language"><a href="" lang="ua">Укр</a></li>
+                    <li className="language"><a href="" lang="en">Eng</a></li>
                   </ul>
                 </nav>
               </div>
