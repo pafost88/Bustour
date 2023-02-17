@@ -222,7 +222,6 @@ section.ticket-list{
                                     background: rgba(206, 94, 94);
                               
                                     font-family: 'Inter';
-                                    font-style: normal;
                                     font-weight: 600;
                                     font-size: 14px;
                                     line-height: 160%;
@@ -249,10 +248,6 @@ section.ticket-list{
                         border-bottom-left-radius: 10px;
                         border-bottom-right-radius: 10px;
                         border-top: 1px solid black;
-
-                        .more-info{
-
-                        }
 
                         .ticket-benefits{
                               border-left: 1px solid gray;
@@ -296,7 +291,11 @@ section.popular{
 
                         .section-title{
                               h2{
-
+                                    font-family: 'Inter';
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    line-height: 160%;
+                                    color: black;
                               }
                         }
 
