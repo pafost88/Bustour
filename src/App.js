@@ -23,6 +23,7 @@ import Footer from './components/footer/Footer';
 
 import './assets/styles/styles.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import PreordersPage from './routes/PreordersPage';
 
 
 
@@ -34,8 +35,9 @@ function App() {
         <Route exact path="/" element={<MainPage/>}/>
         <Route exact path="/bus-list" element={<BusPage/>}/>
         <Route exact path="/check-out" element={<CheckOutPage/>}/>
+        <Route exact path="/preorders" element={<PreordersPage/>}/>
 
-        <Route exact path="/abot" element={<AboutPage/>}/>
+        <Route exact path="/about" element={<AboutPage/>}/>
         <Route exact path="/blog" element={<BlogPage/>}/>
         <Route exact path="/contacts" element={<ContactsPage/>}/>
         <Route exact path="/faq" element={<FAQPage/>}/>

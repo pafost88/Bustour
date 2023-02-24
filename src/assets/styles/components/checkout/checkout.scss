@@ -1,0 +1,541 @@
+section.hero-check-out{
+      height: 200px;
+      width: 100%;
+      background-color: white;
+
+      .hero-banner{
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            background-image: url("../../../images/background.jpg");
+
+            background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+
+            height: 280px;
+
+            width: 100%;
+            
+
+
+            .content{
+                  position: absolute;
+                  top: 120px;
+                  left: 0;
+                  text-align: center;
+
+                  .section-title{
+                        padding-bottom: 20px;
+                        h1{
+                              color: white;
+                              font-family: 'Inter';
+                              font-style: 32px;
+                              font-weight: 700;
+                              margin: 0;
+                        }
+                  }
+
+                  .section-description{
+                        p{
+                              margin: 0;
+                              font-family: 'Inter';
+                              color: white;
+                              font-size: 18px;
+                              font-weight: 400;
+                        }
+                  }
+            }
+            
+      }
+
+}
+
+section.check-out-info{
+      padding: 40px 0px;
+      background: white;
+      
+
+      .section-navigation{
+            display: flex;
+            align-items: center;
+            padding-bottom: 20px;
+
+            .icon{
+                  padding: 0px 10px;
+                  height: 16px;
+                  width: 24px;
+            }
+
+            .before{
+                  color: black;
+                  font-family: 'Inter';
+                  font-size: 24px;
+                  font-weight: 400;
+                  margin: 0;
+            }
+
+            .chose{
+                  color: rgb(7, 69, 81);
+                  font-family: 'Inter';
+                  font-size: 24px;
+                  font-weight: 500;
+                  margin: 0;
+            }
+
+            .next{
+                  color: rgb(210, 210, 210);
+                  font-family: 'Inter';
+                  font-size: 24px;
+                  font-weight: 500;
+                  margin: 0;
+            }
+      }
+
+      .cities{
+            display: flex;
+            align-items: center;
+            padding-bottom: 0px;
+            .icon{
+                  padding: 0px 10px;
+                  height: 16px;
+                  width: 24px;
+            }
+            .from{
+                  color: #424543;
+                  font-family: 'Inter';
+                  font-size: 24px;
+                  font-weight: 500;
+                  margin: 0;
+            }
+            .to{
+                  color: #424543;
+                  font-family: 'Inter';
+                  font-size: 24px;
+                  font-weight: 500;
+                  margin: 0;
+            }
+      }
+
+      .date-time-price{
+            color: #a7a7a7;
+            line-height: 18px;
+            text-transform: lowercase;
+            font-family: 'Inter';
+            font-size: 14px;
+      }
+}
+
+section.check-out{
+      padding: 40px 0;
+
+      .col-8{
+
+            .left-side-info{
+
+                  .issuance-of-a-ticket{
+                        padding: 32px;
+                        background-color: #fff;
+                        border-radius: 6px;
+                        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                        box-shadow: 0 2px 4px rgba(0,0,0,.15);
+
+                        .content{
+                              .section-title{
+                                    
+                                    h2{
+                                          font-family: 'Inter';
+                                          font-weight: 600;
+                                          line-height: 1.1;
+                                          color: rgb(7, 69, 81);
+                                          font-size: 21px;
+                                    }
+                              }
+
+                              .section-name{
+
+                                    .name{
+
+                                          label{
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                color: #a7a7a7;
+                                                padding: 8px 0;
+                                          }
+
+                                          input{
+                                                padding: 11px 15px;
+                                                font-size: 16px;
+                                                font-weight: 400;
+                                                color: #a7a7a7;
+                                                border-radius: 6px;
+                                                height: 46px;
+                                                width: 100%;
+                                          }
+                                    }
+
+
+                              }
+
+                              .seats{
+                                    padding-top: 20px;
+                                    .section-title{
+                                    
+                                          h2{
+                                                font-family: 'Inter';
+                                                font-size: 14px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                          }
+                                    }
+
+                                    .setting{
+                                          display: flex;
+                                          align-items: center;
+                                          justify-content: center;
+                                          height: 46px;
+                                          width: 100%;
+                                          border-radius: 6px;
+                                          border: 1px solid black;
+
+                                          .icon{
+                                                margin-right: 6px;
+                                                width: 28px;
+                                                height: 28px;
+                                                background: black;
+                                          }
+
+                                          .text{
+                                                color: #272424;
+                                                font-size: 14px;
+                                                line-height: 1.42857;
+                                                font-weight: 600;
+                                                font-family: 'Inter';
+                                          }
+                                    }
+                              }
+                        }
+                  }
+
+                  .information-about-buyer{
+                        margin: 30px 0;
+                        padding: 32px;
+                        background-color: #fff;
+                        border-radius: 6px;
+                        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                        box-shadow: 0 2px 4px rgba(0,0,0,.15);
+
+                        .content{
+                              .section-title{
+                                    
+                                    h2{
+                                          font-family: 'Inter';
+                                          font-weight: 600;
+                                          line-height: 1.1;
+                                          color: rgb(7, 69, 81);
+                                          font-size: 21px;
+                                    }
+                              }
+                              
+                              .section-description{
+                                    font-family: 'Inter';
+                                    font-size: 14px;
+                                    line-height: 1.42857;
+                                    color: #424543;
+                              }
+
+                              .section-info{
+
+                                    .name{
+
+                                          label{
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                color: #a7a7a7;
+                                                padding: 8px 0;
+                                          }
+
+                                          input{
+                                                padding: 11px 15px;
+                                                font-size: 16px;
+                                                font-weight: 400;
+                                                color: #a7a7a7;
+                                                border-radius: 6px;
+                                                height: 46px;
+                                                width: 100%;
+                                          }
+                                    }
+
+
+                              }
+                        }
+                  }
+
+                  .to-be-paid{
+                        padding: 32px;
+                        background-color: #fff;
+                        border-radius: 6px;
+                        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                        box-shadow: 0 2px 4px rgba(0,0,0,.15);
+
+                        .content{
+                              .section-title{
+                                    display: flex;
+                                    border-bottom: 1px solid black;
+
+                                    .title{
+                                          width: 50%;
+                                          h2{
+                                                font-family: 'Inter';
+                                                font-weight: 600;
+                                                line-height: 1.1;
+                                                color: rgb(7, 69, 81);
+                                                font-size: 21px;
+                                          }
+                                    }
+
+                                    .price{
+                                          width: 50%;
+                                          h2{
+                                                font-size: 26px;
+                                                font-family: 'Inter';
+                                                font-weight: 600;
+                                                line-height: 1.1;
+                                                text-align: right;
+                                          }
+                                    }
+                              }
+
+                              .pay-info{
+                                    padding-top: 10px;
+                                    font-family: 'Inter';
+                                    font-size: 14px;
+                                    line-height: 1.42857;
+                                    color: #424543;
+                              }
+
+                              form{
+                                    padding-top: 10px;
+                                    .form-group{
+                                          display: flex;
+                                          align-items: center;
+                                          margin-bottom: 15px;
+
+                                          input{
+                                                width: 24px;
+                                                height: 24px;
+                                                margin-right: 10px;
+                                                border-radius: 6px !important;
+                                                border: 1px;
+                                          }
+
+                                          input:checked {
+                                                background-color: greenyellow;
+                                          }
+
+                                          label{
+                                                font-size: 16px;
+                                                color: black;
+                                                font-family: 'Inter';
+                                          }
+                                    }
+
+
+                              }
+                        }
+                  }
+
+                  .section-button{
+                        padding-top: 30px;
+
+                        button.button {
+                              display: inline-block;
+                          
+                              width: 100%;
+                              height: 46px;
+                              border: 0;
+                              border-radius: 5px;
+                              background: rgba(206, 94, 94);
+                        
+                              font-family: 'Inter';
+                              font-weight: 600;
+                              font-size: 14px;
+                              line-height: 160%;
+                              color: #F2F4F7;
+                          
+                              a{
+                                text-decoration: none;
+                              }
+                          
+                              &:hover{
+                                  border: 1px solid black;
+                                  color: #5D5D5D;
+                                  background: white;
+                              }
+                        
+                              transition: 0.2s ease;
+                            
+                        }
+
+                        .safe-block{
+                              padding-top: 10px;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              .icon{
+                                    width: 14px;
+                                    height: 14px;
+                                    margin-right: 6px;
+                              }
+                              .text{
+                                    font-size: 12px;
+                                    color: #a7a7a7;
+                              }
+                        }
+                  }
+            }
+      }
+
+      .col-4{
+            .right-side-info{
+
+                  .about-the-flight{
+                        padding: 32px;
+                        background-color: #fff;
+                        border-radius: 6px;
+                        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                        box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                        
+                        .content{
+                              
+                              .section-title{
+                                    padding-bottom: 10px;
+                                    border-bottom: 1px solid black;
+                                    margin-bottom: 20px;
+
+                                    h2{
+                                          font-family: 'Inter';
+                                          font-weight: 600;
+                                          line-height: 1.1;
+                                          color: rgb(7, 69, 81);
+                                          font-size: 21px;
+                                    }
+                              }
+
+                              .icon-line{
+                                    .icon{
+                                          margin-left: 64px;
+                                          width: 24px;
+                                          height: 24px;
+                                          background-color: black;
+                                    }
+                              }
+                        
+                              .map-block{
+                                    display: flex;
+                                    padding: 10px 0;
+                                    .time-and-date{
+                                          margin-right: 20px;
+                                          width: 44px;
+                        
+                                          .time{
+                                                font-size: 14px;
+                                                font-weight: 500;
+                                                line-height: 1.29;
+                                                color: #424543;
+                                                font-family: 'Inter';
+                                          }
+                        
+                                          .date{
+                                                font-size: 12px;
+                                                line-height: 1.17;
+                                                white-space: nowrap;
+                                                color: #424543;
+                                                font-family: 'Inter';
+                                          }
+                                    }
+                        
+                                    .city-and-place{
+                                          
+                                          .city-from{
+                                                font-size: 14px;
+                                                font-weight: 500;
+                                                line-height: 1.29;
+                                                font-family: 'Inter';
+                                          }
+                                          .place-from{
+                                                font-size: 14px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                                font-family: 'Inter';
+                                          }
+                                    }
+                              }
+
+                              .ticket-price{
+                                    border-top: 1px solid black;
+                                    display: flex;
+                                    align-items: center;
+                                    margin-top: 20px;
+                                    padding-top: 20px;
+
+                                    .text{
+                                          width: 50%;
+                                          h2{
+                                                font-family: 'Inter';
+                                                font-size: 16px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                          }
+                                    }
+
+                                    .price{
+                                          width: 50%;
+                                          text-align: right;
+                                          font-family: 'Inter';
+                                          font-size: 16px;
+                                          line-height: 1.42857;
+                                          color: #424543;
+                                    }
+                              }
+
+                              .total-price{
+                                    display: flex;
+                                    padding-top: 10px;
+
+                                    .text-type{
+                                          width: 50%;
+
+                                          .text{
+                                                font-family: 'Inter';
+                                                font-size: 16px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                          }
+
+                                          .type{
+                                                font-family: 'Inter';
+                                                font-size: 16px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                          }
+                                    }
+
+                                    .price{
+                                          width: 50%;
+                                          text-align: right;
+                                          font-family: 'Inter';
+                                          font-size: 18px;
+                                          font-family: 600;
+                                          line-height: 1.42857;
+                                          color: black;
+                                    }
+                              }
+                        }
+                  }
+            }
+      }
+}

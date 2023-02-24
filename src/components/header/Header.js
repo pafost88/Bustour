@@ -1,8 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 import Logo from '../../assets/images/logo.svg';
-// import FlagEng from '../../assets/images/f2.png';
 
 function Header() {
 
@@ -22,12 +21,12 @@ function Header() {
               
               <div className="navigation">
                 <div className="support-block">
-                  <a href=""><div className="icon headphones"></div> Служба підтримки</a>
+                  <a href="#"><div className="icon headphones"></div> Служба підтримки</a>
                 </div>
                 <nav>
                   <ul>
-                    <li className="language"><a href="" lang="ua">Укр</a></li>
-                    <li className="language"><a href="" lang="en">Eng</a></li>
+                    <li className="language"><a href="#" >Укр</a></li>
+                    <li className="language"><a href="#" >Eng</a></li>
                   </ul>
                 </nav>
               </div>

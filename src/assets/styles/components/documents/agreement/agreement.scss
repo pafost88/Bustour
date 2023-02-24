@@ -1,0 +1,115 @@
+section.section-agreement{
+      padding: 50px 0;
+
+      .please-read{
+            padding-bottom: 30px;
+            p{
+                  text-indent: 2em;
+                  font-size: 16px;
+                  margin: 0 0 10px;
+                  font-family: 'Inter';
+                  line-height: 1.42857;
+                  color: #424543;
+            }
+      }
+
+      .public-offer{
+            .section-title{
+                  padding-bottom: 20px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 38px;
+                        color: #424543;
+                  }
+            }
+            
+            .section-description{
+
+                  p{
+                        font-family: 'Inter';
+                        font-size: 16px;
+                        line-height: 1.42857;
+                        color: gray;
+                  }
+            }
+      }
+
+      .section-list{
+            padding-top: 40px;
+            .section-title{
+                  padding-bottom: 20px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 28px;
+                        color: #424543;
+                  }
+            }
+            
+            .section-description{
+                  padding-bottom: 20px;
+
+                  p{
+                        padding-bottom: 12px;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 600;
+                        color: #424543;
+                  }
+            }
+      }
+}
+
+section.section-rules{
+
+      .main-info{
+            .section-title{
+                  padding-bottom: 20px;
+                  
+                  h2{
+                        font-weight: 400;
+                        font-size: 38px;
+                        color: #424543;
+                        text-align: center;
+                  }
+      
+                  .sr{
+                        color: red
+                  }
+            }
+      
+            .section-description{
+      
+                  p{
+                        font-family: 'Inter';
+                        font-size: 16px;
+                        line-height: 1.42857;
+                        color: gray;
+                  }
+            }
+      }
+
+      .section-list{
+            text-align: left;
+            padding-top: 40px;
+            .section-title{
+                  padding-bottom: 20px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 28px;
+                        color: #424543;
+                  }
+            }
+            
+            .section-description{
+                  padding-bottom: 20px;
+
+                  p{
+                        padding-bottom: 12px;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 600;
+                        color: #424543;
+                  }
+            }
+      }
+}

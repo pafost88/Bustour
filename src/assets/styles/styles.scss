@@ -8,8 +8,14 @@
 // main
 @import './components/main/main.scss';
 
+// preorders
+@import './components/preorders/preorders.scss';
+
 // bus-list
 @import './components/buslist/bus.scss';
+
+// check-out
+@import './components/checkout/checkout.scss';
 
 // header
 @import './components/header/header.scss';
@@ -18,6 +24,16 @@
 @import './components/footer/footer.scss';
 
 
+// Information //
+// About
+@import './components/information/about/about.scss';
+
+// Documents //
+// Agreement
+@import './components/documents/agreement/agreement.scss';
+
+// Personal Data
+@import './components/documents/personaldata/personaldata.scss';
 
 
 

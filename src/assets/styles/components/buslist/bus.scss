@@ -197,6 +197,7 @@ section.ticket-list{
                         height: 100%;
 
                         border-left: 1px solid gray;
+                        border-left-style: dashed;
                         
             
                         .price{
@@ -251,6 +252,7 @@ section.ticket-list{
 
                         .ticket-benefits{
                               border-left: 1px solid gray;
+                              border-left-style: dashed;
                               height: 32px;
                               display: flex;
                               align-items: center;
