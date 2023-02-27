@@ -1,0 +1,52 @@
+.personal-data{
+      padding-top: 40px;
+
+      .section-title{
+            padding: 20px 0px;
+            h2{
+                  font-weight: 400;
+                  font-size: 38px;
+                  font-family: 'Inter';
+                  color: #424543;
+            }
+
+            h3{
+                  font-size: 24px;  
+                  font-family: 'Inter';
+                  line-height: 1.42857;
+                  color: #424543;
+            }
+      }
+
+      .secription-description{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            p{
+                  font-family: 'Inter';
+                  font-size: 16px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  a{
+                        color: red;
+                        
+                  }
+            }
+      }
+
+      .section-secription-b{
+            p{
+                  padding-top: 40px;
+                  line-height: 1.36364em;
+                  font-weight: 400;
+                  font-size: 26px;
+                  color: #424543;
+
+                  a{
+                        color: red;
+                        
+                  }
+            }
+
+            
+      }
+}

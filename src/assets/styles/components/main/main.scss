@@ -23,12 +23,13 @@ section.hero{
 
 
             .content{
-                  position: absolute;
-                  top: 140px;
+                  position: relative;
+                  top: 20px;
                   left: 0;
                   text-align: center;
 
                   .section-title{
+                        padding-top: 120px;
                         padding-bottom: 20px;
                         h1{
                               color: white;
@@ -40,6 +41,7 @@ section.hero{
                   }
 
                   .section-description{
+                        padding-bottom: 40px;
                         p{
                               margin: 0;
                               font-family: 'Inter';

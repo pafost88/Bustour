@@ -1,4 +1,7 @@
 import React from 'react'
+import SearchBlock from '../components/search/search';
+
+
 
 import banner from '../../src/assets/images/banner_dotua.svg';
 
@@ -7,7 +10,6 @@ export default function MainPage() {
   return (
 
     <main>
-
 
 
       <section className="section hero">
@@ -23,6 +25,9 @@ export default function MainPage() {
                   <div className="section-description">
                     <p>по Україні, Польщі та Європі</p>
                   </div>
+                </div>
+                <div className="col-12">
+                  <SearchBlock/>
                 </div>
               </div>
             </div>
