@@ -25,6 +25,9 @@ export default function ContactsPage() {
       <section className="contacts-content">
         <div className="container">
           <div className="row">
+            <div className="col-12">
+              <h2>Контакти</h2>
+            </div>
             <div className="col-auto">
             <a href="">
               <div className="contact">
@@ -49,8 +52,7 @@ export default function ContactsPage() {
                 </div>
               </a>
             </div>
-          </div>
-          <div className="row">
+
             <div className="col-auto">
               <a href="">
                 <div className="contact">

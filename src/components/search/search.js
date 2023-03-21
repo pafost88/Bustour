@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
 
 
 
 function SearchBlock() {
-      
+      const [value, onChange] = useState(new Date());
+
   return (
       
     <div className="search-block">
@@ -26,6 +28,7 @@ function SearchBlock() {
                               <div className="content-block">
                                     <label for="floatingInput">Дата</label>
                                     {/* <input type="email" class="form-control" id="floatingInput" placeholder="Іванов" /> */}
+                                    {/* <Calendar onChange={onChange} value={value} /> */}
                               </div>
                         </div>
                         <div className="block">

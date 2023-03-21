@@ -27,7 +27,7 @@ export default function MainPage() {
                   </div>
                 </div>
                 <div className="col-12">
-                  <SearchBlock/>
+                  {/* <SearchBlock/> */}
                 </div>
               </div>
             </div>
@@ -38,32 +38,40 @@ export default function MainPage() {
       <section className="section benefits">
         <div className="container">
           <div className="row">
-              <div className="col-3">
+              <div className="col-lg-3 col-sm-12 col-xs-12">
                 <div className="benefits-block">
                   <div className="icon clock"></div>
-                  <h2>Без кас та черг</h2>
-                  <p>Квитки онлайн у будь-який час на сайті та в додатку</p>
+                  <div className="">
+                    <h2>Без кас та черг</h2>
+                    <p>Квитки онлайн у будь-який час на сайті та в додатку</p>
+                  </div>
                 </div>
               </div>
-              <div className="col-3">
+              <div className="col-lg-3 col-sm-12 col-xs-12">
                 <div className="benefits-block">
                   <div className="icon notebook"></div>
-                  <h2>50 000 напрямків</h2>
-                  <p>Рейтинг рейсів перевізників за відгуками пасажирів</p>
+                  <div className="">
+                    <h2>50 000 напрямків</h2>
+                    <p>Рейтинг рейсів перевізників за відгуками пасажирів</p>
+                  </div>
                 </div>
               </div>
-              <div className="col-3">
+              <div className="col-lg-3 col-sm-12 col-xs-12">
                 <div className="benefits-block">
                   <div className="icon calendar"></div>
-                  <h2>Безпечна оплата</h2>
-                  <p>Стандарти безпеки PCI DSS для захисту платіжних даних</p>
+                  <div className="">
+                    <h2>Безпечна оплата</h2>
+                    <p>Стандарти безпеки PCI DSS для захисту платіжних даних</p>
+                  </div>
                 </div>
               </div>
-              <div className="col-3">
+              <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
                 <div className="benefits-block">
                   <div className="icon call"></div>
-                  <h2>Повернення квитків</h2>
-                  <p>Швидке повернення в особистому кабінеті</p>
+                  <div className="">
+                    <h2>Повернення квитків</h2>
+                    <p>Швидке повернення в особистому кабінеті</p>
+                  </div>
                 </div>
               </div>
               <div className="col-12">
@@ -83,7 +91,7 @@ export default function MainPage() {
                 <h1>Чому обирають Busfor</h1>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12 col-xs-12 col-md-12">
               <div className="section-title">
                 <h2>Купити квиток на автобус онлайн просто</h2>
               </div>
@@ -94,7 +102,7 @@ export default function MainPage() {
                 <p>Замовляйте автобусні квитки онлайн – це комфортно і надійно.</p>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12 col-xs-12 col-md-12">
               <div className="section-title">
                 <h2>Квитки на автобус бронюються безкоштовно</h2>
               </div>
@@ -105,7 +113,7 @@ export default function MainPage() {
                 <p>Замовлення квитків на автобус забере у вас буквально 2 хвилини. В результаті ви отримаєте SMS з номером бронювання на свій мобільний телефон. За допомогою цього номера, ви зможете викупити квиток протягом зазначеного терміну в розділі "Мої квитки" на сайті або в Центрі обслуговування клієнтів.</p>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12 col-xs-12 col-md-12">
               <div className="section-title">
                 <h2>Квитки на автобус легко повернути</h2>
               </div>
@@ -123,7 +131,7 @@ export default function MainPage() {
       <section className="section cities">
         <div className="container">
           <div className="row">
-            <div className="col-3">
+            <div className="col-lg-3 col-sm-12 col-xs-12">
               <div className="available-block">
                 <div className="section-title">
                   <h2>Країни</h2>
@@ -140,7 +148,7 @@ export default function MainPage() {
                 </nav>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-sm-12 col-xs-12">
               <div className="available-block">
                 <div className="section-title">
                   <h2>Розклад</h2>
@@ -158,7 +166,7 @@ export default function MainPage() {
                 </nav>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-sm-12 col-xs-12">
               <div className="available-block">
                 <div className="section-title">
                   <h2>Міжнародні</h2>
@@ -177,7 +185,7 @@ export default function MainPage() {
                 </nav>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-sm-12 col-xs-12">
               <div className="available-block">
                 <div className="section-title">
                   <h2>Внутрішні</h2>

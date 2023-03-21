@@ -63,7 +63,18 @@ section.contacts-content{
       background-position: center;
       background-size: cover;
       width: 100%;
-      height: 100%;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+
+      h2{
+            padding-bottom: 50px;
+            margin: 0;
+            font-size: 52px;
+            line-height: 44px;
+            font-family: 'Inter';
+            color: #424543;
+      }
 
       .row{
             padding: 60px 0 20px 0;
@@ -78,6 +89,7 @@ section.contacts-content{
                   height: 200px;
                   border: 1px solid black;
                   border-radius: 6px;
+                  background-color: white;
                   
             
             

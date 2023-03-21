@@ -16,41 +16,51 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="image-section">
-            <div className="col-2">
-              <div className="reach">
-                <img src={maestro} alt="Maestro" />
+          <div className="col-12">
+            <div className="image-section">
+                
+              <div className="row">
+                <div className="col-xl-2 col-4">
+                  <div className="reach">
+                    <img src={maestro} alt="Maestro" />
+                  </div>
+                </div>
+                <div className="col-xl-2 col-4">
+                  <div className="reach">
+                    <img src={visa} alt="Maestro" />
+                  </div>
+                </div>
+                <div className="col-xl-2 col-4">
+                  <div className="reach">
+                    <img src={uafavorit} alt="Maestro" />
+                  </div>
+                </div>
+                <div className="col-xl-2 col-4">
+                  <div className="reach">
+                    <img src={uaprize} alt="Maestro" />
+                  </div>
+                </div>
+                <div className="col-xl-2 col-4">
+                  <div className="reach">
+                    <img src={vuso} alt="Maestro" />
+                  </div>
+                </div>
+                <div className="col-xl-2 col-4">
+                  <div className="reach">
+                    <img src={mastercard} alt="Maestro" />
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-2">
-              <div className="reach">
-                <img src={visa} alt="Maestro" />
-              </div>
-            </div>
-            <div className="col-2">
-              <div className="reach">
-                <img src={uafavorit} alt="Maestro" />
-              </div>
-            </div>
-            <div className="col-2">
-              <div className="reach">
-                <img src={uaprize} alt="Maestro" />
-              </div>
-            </div>
-            <div className="col-2">
-              <div className="reach">
-                <img src={mastercard} alt="Maestro" />
-              </div>
-            </div>
-            <div className="col-2">
-              <div className="reach">
-                <img src={vuso} alt="Maestro" />
-              </div>
+
             </div>
           </div>
-          <div className="col-6">
+
+
+
+
+          <div className="col-xl-6 col-xs-12 col-sm-12">
             <div className="row">
-              <div className="col-4">
+              <div className="col-xl-4 col-xs-12 col-sm-12">
                 <div className="links-block">
                   <div className="section-title">
                     <h2>Інформація</h2>
@@ -64,7 +74,7 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-xl-4 col-xs-12 col-sm-12">
                 <div className="links-block">
                   <div className="section-title">
                     <h2>Партнерам</h2>
@@ -77,7 +87,7 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-xl-4 col-xs-12 col-sm-12">
                 <div className="links-block">
                   <div className="section-title">
                     <h2>Документи</h2>
@@ -90,7 +100,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-xl-6 col-xs-12 col-sm-12">
             <div className="row">
               <div className="col-12">
                 <div className="mobile-app">
