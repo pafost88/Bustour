@@ -68,7 +68,6 @@ export default function Footer() {
                   <ul>
                     <li ><a href="/about">Про нас</a></li>
                     <li ><a href="/faq">Питання та відповіді</a></li>
-                    <li ><a href="/support">Повернути квитки</a></li>
                     <li ><a href="/blog">Блог</a></li>
                     <li ><a href="/contacts">Контакти</a></li>
                   </ul>

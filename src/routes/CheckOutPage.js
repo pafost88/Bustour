@@ -46,7 +46,7 @@ export default function CheckOutPage() {
       <section className="section check-out">
         <div className="container">
           <div className="row">
-            <div className="col-8">
+            <div className="col-xl-8 col-xs-12 col-sm-12">
               <div className="left-side-info">
 
                 <div className="issuance-of-a-ticket">
@@ -56,13 +56,13 @@ export default function CheckOutPage() {
                       </div>
                       <div className="section-name">
                         <div className="row">
-                          <div className="col-6">
+                          <div className="col-xl-6 col-xs-12 col-sm-12">
                             <div className="name">
                               <label for="floatingInput">Ім'я</label>
                               <input type="email" class="form-control" id="floatingInput" placeholder="Іван" />
                             </div>
                           </div>
-                          <div className="col-6">
+                          <div className="col-xl-6 col-xs-12 col-sm-12">
                             <div className="name">
                               <label for="floatingInput">Прізвище</label>
                               <input type="email" class="form-control" id="floatingInput" placeholder="Іванов" />
@@ -75,7 +75,7 @@ export default function CheckOutPage() {
                           <h2>Місце в автобусі</h2>
                         </div>
                         <div className="row">
-                          <div className="col-6">
+                          <div className="col-xl-6 col-xs-12 col-sm-12">
                             <div className="setting">
                               <div className="icon chair"></div> <div className="text">Вільна розсадка</div>
                             </div>
@@ -95,13 +95,13 @@ export default function CheckOutPage() {
                     </div>
                     <div className="section-info">
                         <div className="row">
-                          <div className="col-6">
+                          <div className="col-xl-6 col-xs-12 col-sm-12">
                             <div className="name">
                               <label for="floatingInput">E-mail</label>
                               <input type="email" class="form-control" id="floatingInput" placeholder="yourrmail@gmail.com" />
                             </div>
                           </div>
-                          <div className="col-6">
+                          <div className="col-xl-6 col-xs-12 col-sm-12">
                             <div className="name">
                               <label for="floatingInput">Телефон</label>
                               <input type="email" class="form-control" id="floatingInput" placeholder="+380" />
@@ -144,7 +144,7 @@ export default function CheckOutPage() {
 
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-xl-4 col-xs-12 col-sm-12">
               <div className="right-side-info">
 
                 <div className="about-the-flight">

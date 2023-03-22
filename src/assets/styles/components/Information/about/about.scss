@@ -28,7 +28,7 @@ section.hero-about{
                   left: 0;
                   text-align: left;
 
-                  .section-title{
+                  .section-title-m{
                         padding-bottom: 20px;
                         h1{
                               color: white;
@@ -132,3 +132,293 @@ section.about-contacts{
             }
       }
 }
+
+@media screen and (min-width: 320px) and (max-width: 479.98px) {
+
+      section.hero-about{
+            height: 200px;
+            width: 100%;
+            background-color: white;
+      
+            .hero-banner{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+      
+                  background-image: url("../../../../images/background.jpg");
+      
+                  background-size: no-repeat;
+      
+                  background-position: center;
+      
+                  background-size: cover;
+      
+                  height: 280px;
+      
+                  width: 100%;
+                  
+      
+      
+                  .content{
+                        position: relative;
+                        top: 120px;
+                        left: 0;
+                        text-align: left;
+      
+                        .section-title-m{
+                              padding-bottom: 20px;
+                              h2{
+                                    color: white;
+                                    font-family: 'Inter';
+                                    font-style: 20px !important;
+                                    font-weight: 700;
+                                    margin: 0;
+                              }
+                        }
+      
+                        .section-description{
+                              p{
+                                    margin: 0;
+                                    font-family: 'Inter';
+                                    color: white;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                              }
+                        }
+                  }
+                  
+            }
+      
+      }
+      
+      section.about-content{
+            background-color: white;
+            padding: 30px 0;
+            
+            .section-title{
+                  padding-bottom: 10px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 24px;
+                        font-family: 'Inter';
+                        font-weight: 400;
+                        line-height: 1.1;
+                        color: #424543;
+                        
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                  }
+            }
+      
+            .section-description{
+                  padding-bottom: 20px;
+                  p{
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 600;
+                        font-family: 'Inter';
+                        color: gray;
+                  }
+            }
+      }
+      
+      section.about-banner{
+            img{
+                  width: 100%;
+                  height: 100%;
+            }
+      }
+      
+      section.about-contacts{
+            padding-top: 30px;
+      
+            .section-title{
+                  padding-bottom: 10px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 18px;
+                        font-family: 'Inter';
+                        font-weight: 400;
+                        line-height: 1.1;
+                        color: #424543;
+                        
+                        margin-top: 20px;
+                        margin-bottom: 5px;
+                  }
+            }
+      
+            .section-description{
+                  p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        font-family: 'Inter';
+                        color: gray;
+                        margin: 0;
+                  }
+            }
+      
+            .section-description-more{
+                  padding-top: 15px;
+                  p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        font-family: 'Inter';
+                        color: black;
+                  }
+            }
+      }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.98px) {
+
+      section.hero-about{
+            height: 200px;
+            width: 100%;
+            background-color: white;
+      
+            .hero-banner{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+      
+                  background-image: url("../../../../images/background.jpg");
+      
+                  background-size: no-repeat;
+      
+                  background-position: center;
+      
+                  background-size: cover;
+      
+                  height: 280px;
+      
+                  width: 100%;
+                  
+      
+      
+                  .content{
+                        position: relative;
+                        top: 120px;
+                        left: 0;
+                        text-align: left;
+      
+                        .section-title-m{
+                              padding-bottom: 20px;
+                              h2{
+                                    color: white;
+                                    font-family: 'Inter';
+                                    font-style: 20px !important;
+                                    font-weight: 700;
+                                    margin: 0;
+                              }
+                        }
+      
+                        .section-description{
+                              p{
+                                    margin: 0;
+                                    font-family: 'Inter';
+                                    color: white;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                              }
+                        }
+                  }
+                  
+            }
+      
+      }
+      
+      section.about-content{
+            background-color: white;
+            padding: 30px 0;
+            
+            .section-title{
+                  padding-bottom: 10px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 24px;
+                        font-family: 'Inter';
+                        font-weight: 400;
+                        line-height: 1.1;
+                        color: #424543;
+                        
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                  }
+            }
+      
+            .section-description{
+                  padding-bottom: 20px;
+                  p{
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 600;
+                        font-family: 'Inter';
+                        color: gray;
+                  }
+            }
+      }
+      
+      section.about-banner{
+            img{
+                  width: 100%;
+                  height: 100%;
+            }
+      }
+      
+      section.about-contacts{
+            padding-top: 30px;
+      
+            .section-title{
+                  padding-bottom: 10px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 18px;
+                        font-family: 'Inter';
+                        font-weight: 400;
+                        line-height: 1.1;
+                        color: #424543;
+                        
+                        margin-top: 20px;
+                        margin-bottom: 5px;
+                  }
+            }
+      
+            .section-description{
+                  p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        font-family: 'Inter';
+                        color: gray;
+                        margin: 0;
+                  }
+            }
+      
+            .section-description-more{
+                  padding-top: 15px;
+                  p{
+                        font-size: 12px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        font-family: 'Inter';
+                        color: black;
+                  }
+            }
+      }
+
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1480.98px) {}
+
+@media (min-width: 1481px) {}

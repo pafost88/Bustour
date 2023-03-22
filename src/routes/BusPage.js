@@ -62,7 +62,7 @@ export default function BusPage() {
             <div className="content">
               <div className="col-12">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-xl-4 col-xs-12 col-sm-12">
                       <div className="row">
                         <div className="info-block">
                           <div className="col-12">
@@ -94,7 +94,7 @@ export default function BusPage() {
                         
                       </div>
                     </div>
-                    <div className="col-5">
+                    <div className="col-xl-5 col-xs-12 col-sm-12">
                       <div className="row">
                         <div className="info-block">
                         <div className="col-12">
@@ -125,7 +125,7 @@ export default function BusPage() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-xl-3 col-xs-12 col-sm-12">
                       <div className="ticket-price">
                         <div className="price">
                           <h2>471грн</h2>
@@ -140,12 +140,13 @@ export default function BusPage() {
                   <div className="col-12">
                     <div className="ticket-footer">
                       <div className="row">
-                        <div className="col-9">
+                        <div className="col-xl-9">
                           <div className="more-info">
-                            1
+                            <div className="driver">Перевізник: KLR Bus</div>
+                            <div className="car">Автобус: Van Hool [EL3GU42]</div>  
                           </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-xl-3">
                           <div className="ticket-benefits">
                               <div className="content">
                                 <div className="icon wifi"></div>
@@ -170,7 +171,7 @@ export default function BusPage() {
             <div className="col-12">
               <div className="popular-blocks">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-xl-6 col-xs-12 col-sm-12">
                     <div className="popular-list">
                       <div className="content">
                         <div className="section-title">
@@ -188,7 +189,7 @@ export default function BusPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-xl-6 col-xs-12 col-sm-12">
                     <div className="popular-list">
                       <div className="content">
                         <div className="section-title">
@@ -206,7 +207,7 @@ export default function BusPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-xl-6 col-xs-12 col-sm-12">
                     <div className="popular-list">
                       <div className="content">
                         <div className="section-title">
@@ -224,7 +225,7 @@ export default function BusPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-xl-6 col-xs-12 col-sm-12">
                     <div className="popular-list">
                       <div className="content">
                         <div className="section-title">

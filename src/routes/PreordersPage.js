@@ -36,7 +36,7 @@ export default function PreordersPage() {
                 <div className="from">Львів</div> <div className="icon ar"></div> <div className="to">Варшава</div>
               </div>
               <div className="row">
-                <div className="col-8">
+                <div className="col-xl-8 col-xs-12 col-sm-12">
                   <div className="map-block">
                     <div className="time-and-date">
                       <div className="time">21:50</div>
@@ -67,7 +67,7 @@ export default function PreordersPage() {
                     Тип рейсу: Регулярний
                   </div>
                 </div>
-                <div className="col-4">
+                <div className="col-xl-4 col-xs-12 col-sm-12">
                   <div className="benefits-block">
                     <div className="benefits-title">Додатково</div>
                     <div className="block-icon"><div className="icon wifi"></div>Wi-Fi</div>
@@ -99,7 +99,7 @@ export default function PreordersPage() {
                       <h2>Виберіть квиток</h2>
                     </div>
                     <div className="row">
-                      <div className="col-6">
+                      <div className="col-xl-6 col-xs-12 col-sm-12">
                         <div className="ticket-block">
                           <div className="ticket-name">
                             <h2>Standart</h2>
@@ -127,7 +127,10 @@ export default function PreordersPage() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-6">
+                      <div className="hr-block">
+                        <hr  className="selector"/>
+                      </div>
+                      <div className="col-xl-6 col-xs-12 col-sm-12">
                         <div className="ticket-block">
                           <div className="ticket-name">
                             <h2>Premium</h2> <div className="icon premium"></div>

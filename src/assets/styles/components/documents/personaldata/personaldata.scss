@@ -1,3 +1,59 @@
+section.hero-personal{
+      height: 200px;
+      width: 100%;
+      background-color: white;
+
+      .hero-banner{
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            background-image: url("../../../../images/background.jpg");
+
+            background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+
+            height: 280px;
+
+            width: 100%;
+            
+
+
+            .content{
+                  position: relative;
+                  top: 120px;
+                  left: 0;
+                  text-align: left;
+
+                  .section-title{
+                        padding-bottom: 20px;
+                        h2{
+                              color: white;
+                              font-family: 'Inter';
+                              font-style: 32px;
+                              font-weight: 700;
+                              margin: 0;
+                        }
+                  }
+
+                  .section-description{
+                        p{
+                              margin: 0;
+                              font-family: 'Inter';
+                              color: white;
+                              font-size: 18px;
+                              font-weight: 400;
+                        }
+                  }
+            }
+            
+      }
+
+}
+
 .personal-data{
       padding-top: 40px;
 
@@ -50,3 +106,241 @@
             
       }
 }
+
+@media screen and (min-width: 320px) and (max-width: 479.98px) {
+
+      section.hero-personal{
+            height: 200px;
+            width: 100%;
+            background-color: white;
+      
+            .hero-banner{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+      
+                  background-image: url("../../../../images/background.jpg");
+      
+                  background-size: no-repeat;
+      
+                  background-position: center;
+      
+                  background-size: cover;
+      
+                  height: 220px;
+      
+                  width: 100%;
+                  
+      
+      
+                  .content{
+                        position: relative;
+                        top: 100px;
+                        left: 0;
+                        text-align: left;
+      
+                        .section-title{
+                              padding-bottom: 20px;
+                              h2{
+                                    color: white;
+                                    font-family: 'Inter';
+                                    font-style: 29px;
+                                    font-weight: 700;
+                                    margin: 0;
+                              }
+                        }
+      
+                        .section-description{
+                              p{
+                                    margin: 0;
+                                    font-family: 'Inter';
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                              }
+                        }
+                  }
+                  
+            }
+      
+      }
+
+      .personal-data{
+            padding-top: 0px;
+      
+            .section-title{
+                  padding: 20px 0px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 22px;
+                        font-family: 'Inter';
+                        color: #424543;
+                  }
+      
+                  h3{
+                        font-size: 16px;  
+                        font-family: 'Inter';
+                        line-height: 1.42857;
+                        color: #424543;
+                  }
+            }
+      
+            .secription-description{
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                  p{
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        line-height: 1.42857;
+                        color: #424543;
+                        a{
+                              color: red;
+                              
+                        }
+                  }
+            }
+      
+            .section-secription-b{
+                  p{
+                        padding-top: 40px;
+                        line-height: 1.36364em;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #424543;
+      
+                        a{
+                              color: red;
+                              
+                        }
+                  }
+      
+                  
+            }
+      }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.98px) {
+
+      section.hero-personal{
+            height: 200px;
+            width: 100%;
+            background-color: white;
+      
+            .hero-banner{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+      
+                  background-image: url("../../../../images/background.jpg");
+      
+                  background-size: no-repeat;
+      
+                  background-position: center;
+      
+                  background-size: cover;
+      
+                  height: 220px;
+      
+                  width: 100%;
+                  
+      
+      
+                  .content{
+                        position: relative;
+                        top: 100px;
+                        left: 0;
+                        text-align: left;
+      
+                        .section-title{
+                              padding-bottom: 20px;
+                              h2{
+                                    color: white;
+                                    font-family: 'Inter';
+                                    font-style: 29px;
+                                    font-weight: 700;
+                                    margin: 0;
+                              }
+                        }
+      
+                        .section-description{
+                              p{
+                                    margin: 0;
+                                    font-family: 'Inter';
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                              }
+                        }
+                  }
+                  
+            }
+      
+      }
+
+      .personal-data{
+            padding-top: 0px;
+      
+            .section-title{
+                  padding: 20px 0px;
+                  h2{
+                        font-weight: 400;
+                        font-size: 22px;
+                        font-family: 'Inter';
+                        color: #424543;
+                  }
+      
+                  h3{
+                        font-size: 16px;  
+                        font-family: 'Inter';
+                        line-height: 1.42857;
+                        color: #424543;
+                  }
+            }
+      
+            .secription-description{
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                  p{
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        line-height: 1.42857;
+                        color: #424543;
+                        a{
+                              color: red;
+                              
+                        }
+                  }
+            }
+      
+            .section-secription-b{
+                  p{
+                        padding-top: 40px;
+                        line-height: 1.36364em;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #424543;
+      
+                        a{
+                              color: red;
+                              
+                        }
+                  }
+      
+                  
+            }
+      }
+
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1480.98px) {}
+
+@media (min-width: 1481px) {}

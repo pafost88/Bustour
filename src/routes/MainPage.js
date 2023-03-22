@@ -27,7 +27,7 @@ export default function MainPage() {
                   </div>
                 </div>
                 <div className="col-12">
-                  {/* <SearchBlock/> */}
+                  <SearchBlock/>
                 </div>
               </div>
             </div>

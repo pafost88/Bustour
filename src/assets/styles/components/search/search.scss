@@ -1,20 +1,18 @@
-.search-block{
 
-      .content{
-            display: flex;
-            align-items: top;
 
             .search-menu{
-                  width: 80%;
+                  width: 100%;
                   height: 60px;
                   background-color: white;
                   border-radius: 6px;
                   .content-menu{
                         display: flex;
+                        justify-content: center;
+                        width: 100%;
                         .block{
                               text-align: left;
                               padding: 0px 10px;
-                              width: 25%;
+                              width: 100%;
                               border-right: 1px solid rgba(128, 128, 128, 0.5);
                               height: 60px;
 
@@ -98,7 +96,7 @@
             }
             
             .search-button{
-                  width: 20%;
+                  width: 100%;
                   // display: flex;
                   // justify-content: center;
                   // align-items: center;
@@ -132,5 +130,3 @@
                       
                   }
             }
-      }
-}

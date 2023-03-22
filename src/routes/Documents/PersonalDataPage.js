@@ -6,14 +6,14 @@ export default function PersonalDataPage() {
 
     <main>
   
-      <section className="section hero-about">
+      <section className="section hero-personal">
         <div className="hero-banner">   
           <div className="container">
             <div className="row">
               <div className="content">
                 <div className="col-12">
                   <div className="section-title">
-                    <h1>Політика конфіденційності</h1>
+                    <h2>Політика конфіденційності</h2>
                   </div>
                   <div className="section-description">
                     <p>Перший онлайн-сервіс, що напряму поєднує пасажирів та автобусних перевізників.</p>

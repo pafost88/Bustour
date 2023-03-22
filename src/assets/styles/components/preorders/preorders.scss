@@ -269,6 +269,17 @@ section.preorder-ticket{
                         }
                   }
 
+                  .hr-block{
+                              display: none;
+                        .selector{
+                              width: 100%;
+                              height: 2px;
+                              background-color: black;
+                              display: flex;
+                              justify-content: center;
+                        }
+                  }
+
                   .ticket-block{
 
                         .ticket-name{
@@ -396,3 +407,736 @@ section.preorder-ticket{
             }
       }
 }
+
+@media screen and (min-width: 320px) and (max-width: 479.98px) {
+
+      section.preoder-info{
+            padding: 40px 0px;
+            background: white;
+            
+      
+            .section-navigation{
+                  display: flex;
+                  align-items: center;
+                  padding-bottom: 20px;
+      
+                  .icon{
+                        padding: 0px 10px;
+                        height: 12px;
+                        width: 14px;
+                  }
+      
+                  .chose{
+                        color: rgb(7, 69, 81);
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+      
+                  .next{
+                        color: rgb(210, 210, 210);
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+            }
+      
+            .cities{
+                  display: flex;
+                  align-items: center;
+                  padding-bottom: 10px;
+                  .icon{
+                        padding: 0px 10px;
+                        height: 12px;
+                        width: 14px;
+                  }
+                  .from{
+                        color: #424543;
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+                  .to{
+                        color: #424543;
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+            }
+      
+            .icon-line{
+                  .icon{
+                        margin-left: 64px;
+                        width: 12px;
+                        height: 12px;
+                        background-color: black;
+                  }
+            }
+      
+            .map-block{
+                  display: flex;
+                  padding: 10px 0;
+                  .time-and-date{
+                        margin-right: 20px;
+                        width: 44px;
+      
+                        .time{
+                              font-size: 12px;
+                              font-weight: 500;
+                              line-height: 1.29;
+                              color: #424543;
+                              font-family: 'Inter';
+                        }
+      
+                        .date{
+                              font-size: 12px;
+                              line-height: 1.17;
+                              white-space: nowrap;
+                              color: #424543;
+                              font-family: 'Inter';
+                        }
+                  }
+      
+                  .city-and-place{
+                        
+                        .city-from{
+                              font-size: 12px;
+                              font-weight: 500;
+                              line-height: 1.29;
+                              font-family: 'Inter';
+                        }
+                        .place-from{
+                              font-size: 12px;
+                              line-height: 1.42857;
+                              color: #424543;
+                              font-family: 'Inter';
+                        }
+                  }
+            }
+      
+            .more-info{
+                  padding-top: 10px;
+                  font-size: 12px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-family: 'Inter';
+            }
+            
+            .flight-type{
+                  padding-top: 10px;
+                  font-size: 12px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-family: 'Inter';
+            }
+      
+            .benefits-block{
+                  .benefits-title{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        font-size: 14px;
+                        line-height: 1.42857;
+                        color: #424543;
+                        font-family: 'Inter';
+                  }
+      
+                  .block-icon{
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 4px;
+      
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        color: #424543;
+                        font-family: 'Inter';
+                       .icon{
+                              width: 14px;
+                              height: 14px;
+                              margin-right: 8px;
+                        } 
+                  }
+                  
+            }
+      
+            .rating-block{
+                  padding-top: 10px;
+                  font-size: 14px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-family: 'Inter';
+      
+                  .red{
+                        color: red;
+                  }
+            }
+      
+            .main-info{
+                  
+                  .driver{
+                        padding: 10px 0;
+                        font-family: 'Inter';
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        font-weight: 600;
+                        color: #424543;
+                  }
+      
+                  .driver-com{
+                        padding-bottom: 4px;
+                        font-family: 'Inter';
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        color: #424543;
+                  }
+      
+                  .driver-bus{
+                        font-family: 'Inter';
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        color: #424543;
+                  } 
+            }
+      }
+
+      section.preorder-ticket{
+            padding-top: 40px;
+      
+            .preoder-block{
+                  width: 100%;
+                  background-color: white;
+                  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                  border-right: 10px;
+      
+                  .content{
+                        padding: 30px 0px;
+                        .section-title{
+                              padding-bottom: 20px;
+                              h2{
+                                    color: #424543;
+                                    font-family: 'Inter';
+                                    font-size: 22px;
+                                    font-weight: 500;
+                                    margin: 0;
+                                    text-align: center;
+                              }
+                        }
+
+                        .hr-block{
+                              display: flex;
+                              .selector{
+                                    width: 100%;
+                                    height: 2px;
+                                    background-color: black;
+                                    display: flex;
+                                    justify-content: center;
+                              }
+                        }
+      
+                        .ticket-block{
+                              padding-top: 20px;
+                              
+                              
+      
+                              .ticket-name{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+      
+                                    h2{
+                                          color: black;
+                                          font-family: 'Inter';
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          margin: 0;
+                                    }
+      
+                                    .icon{
+                                          width: 16px;
+                                          height: 16px;
+                                          margin-left: 6px;
+                                    }
+                              }
+      
+                              .available-seats{
+                                    height: 12px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 16px 0;
+                                    h2{
+                                          color: black;
+                                          font-family: 'Inter';
+                                          font-size: 12px;
+                                          font-weight: 500;
+                                          margin: 0;
+                                    }  
+      
+                                    .benefits{
+                                          display: flex;
+                                          align-items: center;
+                                          justify-content: center;
+                                          margin-left: 10px;
+                                          .benefits-title{
+                                                padding-top: 10px;
+                                                padding-bottom: 10px;
+                                                font-size: 12px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                                font-family: 'Inter';
+                                          }
+                              
+      
+                                               .icon{
+                                                      width: 14px;
+                                                      height: 14px;
+                                                      margin: 0 4px;
+                                                } 
+                                          
+                                    }
+                              }
+      
+                              .premium-benefits{
+      
+                                    .benf{
+                                          display: flex;
+                                          justify-content: center;
+                                          padding: 3px 0;
+                                          font-size: 14px;
+                                          line-height: 1.42857;
+                                          color: #424543;
+                                          font-family: 'Inter';
+                                          .icon{
+                                                margin-right: 4px;
+                                                width: 16px;
+                                                height: 16px;
+                                                background: green;
+                                          }
+                                    }
+                              }
+      
+                              .buy-button{
+                                    padding: 10px 0;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    
+                                    button.button {
+                                          display: inline-block;
+                                      
+                                          width: 120px;
+                                          height: 40px;
+                                          border: 0;
+                                          border-radius: 5px;
+                                          background-color: rgb(230, 30, 50);
+                                    
+                                          font-family: 'Inter';
+                                          font-weight: 600;
+                                          font-size: 14px;
+                                          line-height: 160%;
+                                          color: #F2F4F7;
+                                      
+                                          a{
+                                            text-decoration: none;
+                                          }
+                                      
+                                          &:hover{
+                                              border: 1px solid black;
+                                              color: #5D5D5D;
+                                              background: white;
+                                          }
+                                    
+                                          transition: 0.2s ease;
+                                        
+                                    }
+      
+                                    .price{
+                                          margin-left: 20px;
+                                          font-size: 18px;
+                                          line-height: 1.42857;
+                                          color: #424543;
+                                          font-family: 'Inter';
+                                    }
+                              }
+                        }
+      
+                  }
+            }
+      }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.98px) {
+
+      section.preoder-info{
+            padding: 40px 0px;
+            background: white;
+            
+      
+            .section-navigation{
+                  display: flex;
+                  align-items: center;
+                  padding-bottom: 20px;
+      
+                  .icon{
+                        padding: 0px 10px;
+                        height: 12px;
+                        width: 14px;
+                  }
+      
+                  .chose{
+                        color: rgb(7, 69, 81);
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+      
+                  .next{
+                        color: rgb(210, 210, 210);
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+            }
+      
+            .cities{
+                  display: flex;
+                  align-items: center;
+                  padding-bottom: 10px;
+                  .icon{
+                        padding: 0px 10px;
+                        height: 12px;
+                        width: 14px;
+                  }
+                  .from{
+                        color: #424543;
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+                  .to{
+                        color: #424543;
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0;
+                  }
+            }
+      
+            .icon-line{
+                  .icon{
+                        margin-left: 64px;
+                        width: 12px;
+                        height: 12px;
+                        background-color: black;
+                  }
+            }
+      
+            .map-block{
+                  display: flex;
+                  padding: 10px 0;
+                  .time-and-date{
+                        margin-right: 20px;
+                        width: 44px;
+      
+                        .time{
+                              font-size: 12px;
+                              font-weight: 500;
+                              line-height: 1.29;
+                              color: #424543;
+                              font-family: 'Inter';
+                        }
+      
+                        .date{
+                              font-size: 12px;
+                              line-height: 1.17;
+                              white-space: nowrap;
+                              color: #424543;
+                              font-family: 'Inter';
+                        }
+                  }
+      
+                  .city-and-place{
+                        
+                        .city-from{
+                              font-size: 12px;
+                              font-weight: 500;
+                              line-height: 1.29;
+                              font-family: 'Inter';
+                        }
+                        .place-from{
+                              font-size: 12px;
+                              line-height: 1.42857;
+                              color: #424543;
+                              font-family: 'Inter';
+                        }
+                  }
+            }
+      
+            .more-info{
+                  padding-top: 10px;
+                  font-size: 12px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-family: 'Inter';
+            }
+            
+            .flight-type{
+                  padding-top: 10px;
+                  font-size: 12px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-family: 'Inter';
+            }
+      
+            .benefits-block{
+                  .benefits-title{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        font-size: 14px;
+                        line-height: 1.42857;
+                        color: #424543;
+                        font-family: 'Inter';
+                  }
+      
+                  .block-icon{
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 4px;
+      
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        color: #424543;
+                        font-family: 'Inter';
+                       .icon{
+                              width: 14px;
+                              height: 14px;
+                              margin-right: 8px;
+                        } 
+                  }
+                  
+            }
+      
+            .rating-block{
+                  padding-top: 10px;
+                  font-size: 14px;
+                  line-height: 1.42857;
+                  color: #424543;
+                  font-family: 'Inter';
+      
+                  .red{
+                        color: red;
+                  }
+            }
+      
+            .main-info{
+                  
+                  .driver{
+                        padding: 10px 0;
+                        font-family: 'Inter';
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        font-weight: 600;
+                        color: #424543;
+                  }
+      
+                  .driver-com{
+                        padding-bottom: 4px;
+                        font-family: 'Inter';
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        color: #424543;
+                  }
+      
+                  .driver-bus{
+                        font-family: 'Inter';
+                        font-size: 12px;
+                        line-height: 1.42857;
+                        color: #424543;
+                  } 
+            }
+      }
+
+      section.preorder-ticket{
+            padding-top: 40px;
+      
+            .preoder-block{
+                  width: 100%;
+                  background-color: white;
+                  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+                  border-right: 10px;
+      
+                  .content{
+                        padding: 30px 0px;
+                        .section-title{
+                              padding-bottom: 20px;
+                              h2{
+                                    color: #424543;
+                                    font-family: 'Inter';
+                                    font-size: 22px;
+                                    font-weight: 500;
+                                    margin: 0;
+                                    text-align: center;
+                              }
+                        }
+
+                        .hr-block{
+                              display: flex;
+                              .selector{
+                                    width: 100%;
+                                    height: 2px;
+                                    background-color: black;
+                                    display: flex;
+                                    justify-content: center;
+                              }
+                        }
+      
+                        .ticket-block{
+                              padding-top: 20px;
+                              
+                              
+      
+                              .ticket-name{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+      
+                                    h2{
+                                          color: black;
+                                          font-family: 'Inter';
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          margin: 0;
+                                    }
+      
+                                    .icon{
+                                          width: 16px;
+                                          height: 16px;
+                                          margin-left: 6px;
+                                    }
+                              }
+      
+                              .available-seats{
+                                    height: 12px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 16px 0;
+                                    h2{
+                                          color: black;
+                                          font-family: 'Inter';
+                                          font-size: 12px;
+                                          font-weight: 500;
+                                          margin: 0;
+                                    }  
+      
+                                    .benefits{
+                                          display: flex;
+                                          align-items: center;
+                                          justify-content: center;
+                                          margin-left: 10px;
+                                          .benefits-title{
+                                                padding-top: 10px;
+                                                padding-bottom: 10px;
+                                                font-size: 12px;
+                                                line-height: 1.42857;
+                                                color: #424543;
+                                                font-family: 'Inter';
+                                          }
+                              
+      
+                                               .icon{
+                                                      width: 14px;
+                                                      height: 14px;
+                                                      margin: 0 4px;
+                                                } 
+                                          
+                                    }
+                              }
+      
+                              .premium-benefits{
+      
+                                    .benf{
+                                          display: flex;
+                                          justify-content: center;
+                                          padding: 3px 0;
+                                          font-size: 14px;
+                                          line-height: 1.42857;
+                                          color: #424543;
+                                          font-family: 'Inter';
+                                          .icon{
+                                                margin-right: 4px;
+                                                width: 16px;
+                                                height: 16px;
+                                                background: green;
+                                          }
+                                    }
+                              }
+      
+                              .buy-button{
+                                    padding: 10px 0;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    
+                                    button.button {
+                                          display: inline-block;
+                                      
+                                          width: 120px;
+                                          height: 40px;
+                                          border: 0;
+                                          border-radius: 5px;
+                                          background-color: rgb(230, 30, 50);
+                                    
+                                          font-family: 'Inter';
+                                          font-weight: 600;
+                                          font-size: 14px;
+                                          line-height: 160%;
+                                          color: #F2F4F7;
+                                      
+                                          a{
+                                            text-decoration: none;
+                                          }
+                                      
+                                          &:hover{
+                                              border: 1px solid black;
+                                              color: #5D5D5D;
+                                              background: white;
+                                          }
+                                    
+                                          transition: 0.2s ease;
+                                        
+                                    }
+      
+                                    .price{
+                                          margin-left: 20px;
+                                          font-size: 18px;
+                                          line-height: 1.42857;
+                                          color: #424543;
+                                          font-family: 'Inter';
+                                    }
+                              }
+                        }
+      
+                  }
+            }
+      }
+
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1480.98px) {}
+
+@media (min-width: 1481px) {}
